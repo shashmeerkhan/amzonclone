@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: rgb(35, 47, 61) !important;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: #ff9900 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #ff9900 !important;
+  border-radius: 5px;
+}
+
+.btn-outline-success {
+  color: #ff9900;
+  border-color: #ff9900;
+}
+
+.btn-outline-success:hover {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+  color: #007185;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.mycontainer {
+  width: 92%;
+  margin: 50px auto;
+  position: absolute;
+  top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5%;
+  gap: 5px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  display: inline;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.item1 a {
+  display: block;
+  margin-top: 10px;
+  color: #007185;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+.item1 a:hover {
+  text-decoration: underline;
+}
+.item {
+  width: 48%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007185;
+  text-decoration: none;
+}
+.item1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item1 img {
+  width: 100%;
+  height: auto;
+}
+.product-slider {
+ 
+  width: 100%;
+  height: 280px;
+  position: relative;
+  top: 550px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+    position: relative;
+  top: 750px;
+ 
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #3a4553;
+  padding-bottom: 30px;
+
+}
+
+.footer-column {
+  width: 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+  
+}
+.footer-selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232f3e;
+  padding: 20px;
+  gap: 20px;
+  border-top: 1px solid #3a4553;
+  flex-wrap: wrap;
+}
+
+.amazon-logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.selectors {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.selector-btn {
+  background-color: #232f3e;
+  color: #ddd;
+  border: 1px solid #3a4553;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.selector-btn:hover {
+  background-color: #37475a;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 15px;
+}
