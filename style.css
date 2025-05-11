@@ -33,7 +33,18 @@ body {
   background-color: #ff9900 !important;
   border-radius: 5px;
 }
+form[role="search"] input {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
 
+form[role="search"] .btn {
+  background-color: #febd69;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  border-radius: 20px;
+}
 .btn-outline-success {
   color: #ff9900;
   border-color: #ff9900;
@@ -265,4 +276,61 @@ body {
 .flag-icon {
   width: 20px;
   height: 15px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .mycontainer {
+    width: 95%;
+    top: auto;
+    position: static;
+    margin: 20px auto;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item1 {
+    width: 100%;
+  }
+
+  .product-slider {
+    height: auto;
+    top: auto;
+    margin-top: 20px;
+  }
+
+  .footer {
+    top: auto;
+    padding: 20px 10px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .footer-selectors {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
