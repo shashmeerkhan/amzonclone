@@ -1,19 +1,27 @@
 # Amazon Clone Website
 
 This is a simple **Amazon Clone Website** built using only **HTML** and **CSS**. It mimics the basic layout and design of Amazon's homepage.
+## Team
+Shahmeer khan: 1 ( 332477)
+Faizan : 2 ( 325405) not available
+Abdullah : 3 ( 284777) not available
+
+
 
 ## Features
 
 - Responsive design
-- Header with logo, search bar, and navigation
+- Header with logo, 
 - Banner image
 - Product cards section
-- Footer with useful links
+- Deals page
+- Footer
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (No frameworks used)
+- CSS3 
+- Boostrap
 
 ## Folder Structure
 amazon-clone/
